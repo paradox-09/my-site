@@ -1,13 +1,14 @@
 site_name: Kangaroo's Site
 
+
 theme:
-  name: material
-  language: zh
-  features:
-    - navigation.tabs
-    - navigation.top
-    - search.suggest
-    - search.highlight
+  name: windmill
+#  language: zh
+#  features:
+#    - navigation.tabs
+#    - navigation.top
+#    - search.suggest
+#    - search.highlight
 plugins:
   - search
 
