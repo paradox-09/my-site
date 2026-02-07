@@ -1,0 +1,84 @@
+/* 正文整体 */
+.md-content {
+  max-width: 720px;          /* 像书页，不要太宽 */
+  font-size: 18px;           /* 字体变大 */
+  line-height: 1.9;
+}
+
+/* 标题更克制 */
+.md-content h1 {
+  font-weight: 500;
+  margin-top: 2.5rem;
+}
+
+.md-content h2 {
+  font-weight: 400;
+  margin-top: 2rem;
+}
+
+/* 诗歌段落 */
+.poem p {
+  margin: 0.2em 0;
+}
+
+/* 侧栏更易读 */
+.md-nav {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* 顶部标题稍柔和 */
+.md-header__title {
+  font-weight: 500;
+}
+
+/* 书目式列表 */
+.booklist {
+  list-style: none;
+  padding-left: 0;
+  margin: 1.2rem 0;
+}
+
+.booklist li {
+  padding: 0.9rem 0;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+.booklist a {
+  text-decoration: none;
+  font-size: 1.05em;
+}
+
+.booklist .meta {
+  margin-left: 0.6rem;
+  opacity: 0.6;
+  font-size: 0.95em;
+}
+
+.booklist .desc {
+  margin-top: 0.35rem;
+  opacity: 0.85;
+  line-height: 1.7;
+}
+
+/* 诗歌：居中与书页感 */
+.poem-center {
+  max-width: 520px;
+  margin: 3.2rem auto;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+/* 手写感字体：优先用本地可用字体；有条件再用在线字体 */
+.poem {
+  font-size: 22px;
+  line-height: 2.05;
+  opacity: 0.95;
+  font-family: "LXGW WenKai", "KaiTi", "STKaiti", "Segoe Script", serif;
+}
+
+.front { margin-top: 10vh; }
+.sig { text-align: center; font-size: 18px; opacity: .7; letter-spacing: .15em; }
+.quote { text-align: center; margin-top: 2rem; opacity: .65; font-size: 16px; }
+.poem .line { display: block; margin: .25em 0; }
+
