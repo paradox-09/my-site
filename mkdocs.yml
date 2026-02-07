@@ -2,7 +2,7 @@ site_name: Kangaroo's Site
 
 
 theme:
-  name: ivory
+  name: readthedocs
 #  language: zh
 #  features:
 #    - navigation.tabs
