@@ -2,7 +2,7 @@ site_name: Kangaroo's Site
 
 
 theme:
-  name: windmill
+  name: ivory
 #  language: zh
 #  features:
 #    - navigation.tabs
