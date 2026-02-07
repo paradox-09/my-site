@@ -76,3 +76,9 @@
   opacity: 0.95;
   font-family: "LXGW WenKai", "KaiTi", "STKaiti", "Segoe Script", serif;
 }
+
+.front { margin-top: 10vh; }
+.sig { text-align: center; font-size: 18px; opacity: .7; letter-spacing: .15em; }
+.quote { text-align: center; margin-top: 2rem; opacity: .65; font-size: 16px; }
+.poem .line { display: block; margin: .25em 0; }
+
