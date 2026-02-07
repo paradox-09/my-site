@@ -2,13 +2,24 @@ site_name: Kangaroo's Site
 
 
 theme:
-  name: readthedocs
-#  language: zh
+  name: material
+  language: zh
 #  features:
 #    - navigation.tabs
 #    - navigation.top
 #    - search.suggest
 #    - search.highlight
+  font:
+    text: Noto Serif SC     # 正文字体：衬线，更像书
+    code: Fira Code
+  palette:
+    - scheme: default
+      primary: white
+      accent: deep purple
+  features:
+    - navigation.top        # 顶部导航（不要左边大侧栏）
+    - toc.integrate         # 目录融入正文
+    - content.code.copy
 plugins:
   - search
 
@@ -20,8 +31,16 @@ nav:
   - Links: links.md
 
 markdown_extensions:
+  - attr_list
+  - footnotes
+  - pymdownx.emoji
+  - pymdownx.highlight
+  - pymdownx.superfences
   - pymdownx.arithmatex:
       generic: true
+
+extra_css:
+  - styles/poem.css
 
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js

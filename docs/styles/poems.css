@@ -1,0 +1,27 @@
+/* 正文整体 */
+.md-content {
+  max-width: 720px;          /* 像书页，不要太宽 */
+  font-size: 18px;           /* 字体变大 */
+  line-height: 1.9;
+}
+
+/* 标题更克制 */
+.md-content h1 {
+  font-weight: 500;
+  margin-top: 2.5rem;
+}
+
+.md-content h2 {
+  font-weight: 400;
+  margin-top: 2rem;
+}
+
+/* 诗歌段落 */
+.poem p {
+  margin: 0.2em 0;
+}
+
+/* 去掉太强的文档感 */
+.md-sidebar {
+  display: none;
+}
