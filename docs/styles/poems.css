@@ -21,10 +21,17 @@
   margin: 0.2em 0;
 }
 
-/* 去掉太强的文档感 */
-.md-sidebar {
-  display: none;
+/* 侧栏更易读 */
+.md-nav {
+  font-size: 16px;
+  line-height: 1.6;
 }
+
+/* 顶部标题稍柔和 */
+.md-header__title {
+  font-weight: 500;
+}
+
 /* 书目式列表 */
 .booklist {
   list-style: none;
