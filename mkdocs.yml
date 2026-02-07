@@ -1,1 +1,5 @@
 site_name: Kangaroo's Site
+
+nav:
+  - Home: index.md
+  - Poetry: poetry.md
